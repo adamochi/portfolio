@@ -1,0 +1,37 @@
+#nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 2.5rem;
+  color: var(--main-text-colour);
+  position: absolute;
+  font-family: "Press Start 2P", cursive;
+  padding: 10px;
+}
+.nav-bar .header__sullivan {
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: rgb(118, 197, 0);
+}
+
+.nav-bar span,
+.nav-bar i {
+  padding: 5px;
+  color: var(--main-text-colour);
+}
+.nav-bar a {
+  text-decoration: none;
+}
+
+#scroll {
+  text-decoration: none;
+  color: var(--main-text-colour);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 100vw;
+  position: absolute;
+  z-index: 5;
+  top: 150vh;
+}

@@ -1,0 +1,62 @@
+.home-header {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  position: absolute;
+  top: 20%;
+}
+.home-header h1 {
+  transform: translateX(-500%);
+  color: var(--main-text-colour);
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+.home-header h3 {
+  transform: translateX(500%);
+  font-size: 1rem;
+  color: var(--main-text-colour);
+}
+.home-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.671);
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+@keyframes slideInMessage {
+  from {
+    transform: translateX(500%);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes slideInMessageLeft {
+  from {
+    transform: translate(-500%);
+  }
+  to {
+    transform: none;
+  }
+}
+.home-header h1 {
+  will-change: transform;
+  animation: slideInMessageLeft 1s forwards;
+  animation-delay: 0.1s;
+}
+.home-header h3 {
+  animation: slideInMessage 1s forwards;
+  animation-delay: 0.1s;
+}

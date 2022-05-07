@@ -1,0 +1,27 @@
+@import "CSS/reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import "variables.css";
+/* components */
+@import "CSS/nav-bar.css";
+
+/* screens */
+@import "CSS/home.css";
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  height: 200vh;
+  position: relative;
+  font-family: "Press Start 2P", cursive;
+  background-color: rgba(94, 171, 238, 0.473);
+}
+
+body img {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -2;
+  top: 0;
+  left: 0;
+}
