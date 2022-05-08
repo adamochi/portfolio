@@ -21,11 +21,7 @@
   font-size: 1rem;
   color: var(--main-text-colour);
 }
-.home-icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 body::before {
   content: "";
   position: absolute;
