@@ -5,18 +5,27 @@
   height: 2.5rem;
   color: var(--main-text-colour);
   position: absolute;
-  font-family: "Press Start 2P", cursive;
   padding: 10px;
 }
-.nav-bar .header__sullivan {
+.header__welcome {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 1.5rem;
   font-weight: 200;
   color: rgb(118, 197, 0);
+  border: 2px solid var(--main-text-colour);
+  border-radius: 10px;
+}
+.header__welcome:hover {
+  transform: scale(104%);
+  transition: 0.1s;
 }
 
 .nav-bar span,
 .nav-bar i {
-  padding: 5px;
+  padding: 5px 1px;
   color: var(--main-text-colour);
 }
 .nav-bar a {
@@ -27,7 +36,6 @@
   text-decoration: none;
   color: var(--main-text-colour);
   display: flex;
-  align-items: center;
   justify-content: center;
   height: 50px;
   width: 100vw;
