@@ -8,36 +8,64 @@
     <title>Adam's Portfolio</title>
   </head>
   <body>
-    <header class="home-header">
-      <h1>Adam Joey Sullivan</h1>
-      <h3>Front End Developer</h3>
-    </header>
+    <main id="main">
+      <header id="nav-bar" class="nav-bar">
+        <a
+          href="https://drive.google.com/file/d/1ldNW6KQcHqls7Qx54HWbrcC6080H7nv4/view?usp=sharing"
+        >
+          <h1 id="top" class="header__resume">Resume</h1>
+        </a>
+        <div class="header__icons">
+          <a href="#scroll">
+            <span><i class="fa-brands fa-js-square"></i></span>
+            <span>Works</span>
+          </a>
+          <a href="https://github.com/adamochi">
+            <span class="nav-bar__home">
+              <i class="fa-brands fa-github fa-xl fa-shake"></i>
+            </span>
+            <span>Source</span>
+          </a>
+        </div>
+      </header>
 
-    <header id="nav-bar" class="nav-bar">
-      <a
-        href="https://drive.google.com/file/d/1ldNW6KQcHqls7Qx54HWbrcC6080H7nv4/view?usp=sharing"
-      >
-        <h1 class="header__resume">Resume</h1>
+      <header id="home" class="home-header">
+        <h1>Adam Joey Sullivan</h1>
+        <h3>Front End Developer</h3>
+      </header>
+
+      <div class="home__icons">
+        <span><i class="fa-brands fa-js-square fa-4x"></i></span>
+        <span>
+          <i class="fa-brands fa-github fa-4x"></i>
+        </span>
+      </div>
+
+      <div class="about">
+        <h5>Something About Me</h5>
+        <p>
+          My earliest memory of playing with desktop computers was when i was in
+          1992. During my lunch break in year one I discovered a dedicated
+          computer room at school. There I found a game on a 5 1/2 inch floppy
+          called 'Moon Buggy', and with a quick tip from a friend I was able to
+          boot it up and play this awesome discovery.
+        </p>
+      </div>
+
+      <a href="#top">
+        <div id="scroll">
+          <h2><i class="fa-solid fa-circle-chevron-up fa-2x"></i></h2>
+        </div>
       </a>
-      <div class="header__icons">
-        <a href="#scroll">
-          <span><i class="fa-brands fa-js-square"></i></span>
-          <span>Works</span>
-        </a>
-        <a href="https://github.com/adamochi">
-          <span class="nav-bar__home">
-            <i class="fa-brands fa-github fa-xl fa-shake"></i>
-          </span>
-          <span>Source</span>
-        </a>
-      </div>
-    </header>
 
-    <a href="#nav-bar">
-      <div id="scroll">
-        <h2>scroll test</h2>
+      <div id="splash-screen">
+        <div class="banana a"></div>
+        <div class="banana b"></div>
+        <div class="banana c"></div>
+        <div class="banana d"></div>
+        <div class="banana e"></div>
       </div>
-    </a>
+    </main>
 
     <script src="app.js"></script>
     <script

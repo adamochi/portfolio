@@ -12,12 +12,15 @@
 }
 #nav-bar {
   animation: dropDown 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation-delay: 1.1s;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   width: 100vw;
   height: 2.5rem;
   color: var(--main-text-colour);
   padding: 10px;
+  margin-bottom: 20vh;
 }
 .header__resume {
   width: 100px;
@@ -47,13 +50,12 @@
 }
 
 #scroll {
-  text-decoration: none;
   color: var(--main-text-colour);
   display: flex;
+  align-items: center;
   justify-content: center;
-  height: 50px;
-  width: 100vw;
   position: absolute;
   z-index: 5;
-  top: 150vh;
+  top: 110vh;
+  right: 5vw;
 }
