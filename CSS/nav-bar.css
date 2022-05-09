@@ -35,6 +35,9 @@
   padding-bottom: 3px;
   padding-top: 1px;
 }
+.margin_for_link {
+  margin-right: 10px;
+}
 
 .header__resume:hover {
   transform: scale(104%);
