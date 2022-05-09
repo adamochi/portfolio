@@ -29,9 +29,10 @@
   justify-content: center;
   font-size: 1.5rem;
   font-weight: 200;
-  color: rgb(118, 197, 0);
+  color: var(--main-text-colour);
   border: 2px solid var(--main-text-colour);
   border-radius: 10px;
+  padding-bottom: 5px;
 }
 
 .header__resume:hover {

@@ -1,0 +1,35 @@
+.home__icons::before {
+  content: "";
+  position: absolute;
+  background: var(--purple-color);
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: perspective(1em) rotateX(45deg) scale(1, 0.2);
+  filter: blur(1.5em);
+  opacity: 0.7;
+}
+.home__icons::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 2em 0.5em var(--purple-color);
+  opacity: 0;
+  background-color: var(--purple-color);
+  z-index: -1;
+  transition: opacity 100ms linear;
+  border-radius: 50%;
+}
+
+.home__icons:hover::before,
+.home__icons:focus::after {
+  opacity: 1;
+}
+
+.home__icons:hover::after {
+  opacity: 1;
+}

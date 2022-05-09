@@ -1,3 +1,8 @@
 :root {
-  --main-text-colour: rgb(118, 197, 0);
+  --main-text-colour: rgb(98, 249, 213);
+  --green: rgb(118, 197, 0);
+  /* --purple-color: rgba(137, 43, 226, 0.795); */
+  --purple-color: rgb(98, 249, 213);
+  --dark-color: rgb(10, 25, 47);
+  --dark-purple: rgba(165, 127, 255, 0.247);
 }
