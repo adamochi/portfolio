@@ -86,25 +86,30 @@
 }
 .about {
   position: absolute;
-  top: 80vh;
+  top: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: rgba(127, 255, 212, 0.616);
-  width: 50vw;
+  width: 40vw;
+  top: 100vh;
   padding: 0.5rem;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 0px 0px 50px 3px rgb(127, 168, 255);
 }
-/* .about img {
-  position: absolute;
-  top: -90px;
-  right: -50px;
-  height: 10vh;
-  z-index: -1;
-} */
+.about a {
+  text-decoration: none;
+}
 
-.about h5 {
-  margin-bottom: 0.5rem;
-  text-align: center;
-  font-size: larger;
+.about div {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+.about img {
+  height: 80%;
+  width: 80%;
 }
 
 body::before {

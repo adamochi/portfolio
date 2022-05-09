@@ -3,6 +3,7 @@
 @import "variables.css";
 /* components */
 @import "CSS/nav-bar.css";
+@import "CSS/scrollbar.css";
 
 /* screens */
 @import "CSS/home.css";
