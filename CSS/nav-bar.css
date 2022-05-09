@@ -23,7 +23,7 @@
   margin-bottom: 20vh;
 }
 .header__resume {
-  width: 100px;
+  width: 95px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,7 +32,8 @@
   color: var(--main-text-colour);
   border: 2px solid var(--main-text-colour);
   border-radius: 10px;
-  padding-bottom: 5px;
+  padding-bottom: 3px;
+  padding-top: 1px;
 }
 
 .header__resume:hover {

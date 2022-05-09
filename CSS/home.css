@@ -122,17 +122,17 @@ body::before {
   height: 100vh;
   z-index: -1;
 }
-@keyframes slideInMessage {
+@keyframes slideIn {
   from {
-    transform: translateX(500%);
+    transform: translateX(600%);
   }
   to {
     transform: none;
   }
 }
-@keyframes slideInMessageLeft {
+@keyframes slideInLeft {
   from {
-    transform: translate(-500%);
+    transform: translate(-600%);
   }
   to {
     transform: none;
@@ -140,11 +140,11 @@ body::before {
 }
 .home-header h1 {
   will-change: transform;
-  animation: slideInMessageLeft 1s forwards;
+  animation: slideInLeft 1s forwards;
   animation-delay: 1.1s;
 }
 .home-header h3 {
-  animation: slideInMessage 1s forwards;
+  animation: slideIn 1s forwards;
   animation-delay: 1.1s;
 }
 .home__icons {
@@ -153,8 +153,8 @@ body::before {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: fit-content;
-  height: fit-content;
+  width: 60px;
+  height: 60px;
   background-color: rgba(0, 255, 255, 0.281);
   box-shadow: inset 0 0 0.5em 0 var(--purple-color),
     0 0 0.5em 0 var(--purple-color);
