@@ -14,8 +14,6 @@
   background: rgba(98, 249, 214, 0.788);
   border-radius: 5px;
 }
-
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(98, 249, 213);
 }

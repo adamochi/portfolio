@@ -53,7 +53,7 @@
   align-items: center;
   font-size: 131px;
   animation: hideSplashScreen 0.3s ease-in-out forwards;
-  animation-delay: 1.5s;
+  animation-delay: 1.2s;
 }
 
 #main {
@@ -75,13 +75,13 @@
 }
 .home-header h1 {
   font-family: "Press Start 2P", cursive;
-  transform: translateX(-500%);
+  transform: translateX(-1000%);
   color: var(--main-text-colour);
   font-size: 2.5rem;
   margin-bottom: 2rem;
 }
 .home-header h3 {
-  transform: translateX(500%);
+  transform: translateX(1000%);
   font-size: 1.5rem;
   color: var(--main-text-colour);
 }
@@ -124,7 +124,7 @@ body::before {
 }
 @keyframes slideIn {
   from {
-    transform: translateX(600%);
+    transform: translateX(1000%);
   }
   to {
     transform: none;
@@ -132,7 +132,7 @@ body::before {
 }
 @keyframes slideInLeft {
   from {
-    transform: translate(-600%);
+    transform: translate(-1000%);
   }
   to {
     transform: none;

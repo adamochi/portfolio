@@ -1,0 +1,21 @@
+#some-content {
+  margin-top: 50vh;
+  background-color: var(--dark-purple);
+  position: relative;
+  display: inline-flex;
+  height: 300px;
+  width: 500px;
+}
+.some-content_header {
+  font-size: 1.2rem;
+  color: var(--main-text-colour);
+  padding-bottom: 10px;
+  box-sizing: border-box;
+}
+#some-content img {
+  height: 100%;
+  width: 250px;
+}
+.para {
+  padding: 5px;
+}

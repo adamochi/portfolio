@@ -8,6 +8,7 @@
 
 /* screens */
 @import "CSS/home.css";
+@import "CSS/some-content.css";
 
 html {
   scroll-behavior: smooth;
