@@ -1,15 +1,14 @@
 #some-content {
-  margin-top: 70vh;
-  background-color: var(--dark-purple);
+  margin-top: 45vh;
+  background-color: rgb(98, 249, 213);
   position: relative;
   height: 300px;
   width: 400px;
   border-radius: 20px;
 }
 .some-content_header {
-  text-align: end;
   font-size: 1.2rem;
-  color: var(--main-text-colour);
+  color: rgba(115, 55, 255, 0.966);
   padding: 10px;
 }
 .image-div {

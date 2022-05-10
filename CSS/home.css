@@ -87,15 +87,22 @@
 }
 .about {
   position: absolute;
-  top: 320vh;
+  top: 300vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(127, 255, 212, 0.616);
-  width: 50%;
-  padding: 0.5rem;
-  border-radius: 20px;
+  background-color: rgba(127, 255, 212, 0.822);
+  height: 600px;
+  width: 100vw;
+  padding: 10px;
   box-shadow: 0px 0px 50px 3px rgb(127, 168, 255);
+}
+.about p {
+  padding: 10px 80px;
+}
+.about:hover {
+  background-color: rgb(127, 255, 212);
+  transition: 0.3s;
 }
 .about a {
   text-decoration: none;
@@ -108,8 +115,8 @@
   font-size: 1.5rem;
 }
 .about img {
-  height: 80%;
-  width: 80%;
+  height: 200px;
+  width: 300px;
 }
 
 body::before {
