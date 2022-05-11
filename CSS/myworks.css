@@ -1,0 +1,38 @@
+.works_header {
+  font-family: "Press Start 2P", cursive;
+  font-size: 1rem;
+  margin-top: 40px;
+  color: var(--main-text-colour);
+}
+.works_boxes {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+  animation-delay: 0.5s;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  position: relatives;
+  margin-bottom: 50px;
+}
+.boxes {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  margin: 40px 10px 0px 10px;
+  height: 300px;
+  width: 200px;
+}
+.boxes h3 {
+  margin-top: 20px;
+}
+.boxes span {
+  display: block;
+  text-align: center;
+  background-color: pink;
+  color: var(--main-text-colour);
+  height: fit-content;
+  width: 100%;
+}

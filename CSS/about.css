@@ -61,20 +61,15 @@
   color: var(--main-text-colour);
   display: inline-flex;
 }
-.arrow_left i {
-  margin-right: 10px;
-}
 .arrow_right {
   transform: translateY(-6px);
   color: var(--main-text-colour);
   display: inline-flex;
-}
-.arrow_right i {
   margin-left: 10px;
 }
+
 .about {
-  position: absolute;
-  top: 120vh;
+  margin-top: 220px;
   display: flex;
   align-items: center;
   justify-content: center;
