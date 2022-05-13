@@ -61,7 +61,7 @@
   animation: fadeIn 1s ease-out forwards;
   animation-delay: 0.5s;
   transform: translateY(-6px);
-  color: var(--main-text-colour);
+  color: var(--text-colour-two);
   display: inline-flex;
 }
 .arrow_right {
@@ -69,33 +69,22 @@
   animation: fadeIn 1s ease-out forwards;
   animation-delay: 0.5s;
   transform: translateY(-6px);
-  color: var(--main-text-colour);
+  color: var(--text-colour-two);
   display: inline-flex;
   margin-left: 10px;
 }
 
 .about {
-  margin-top: 220px;
+  position: relative;
+  margin-top: 195px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(127, 255, 212, 0.822);
-  height: 600px;
+  height: 500px;
   width: 100vw;
   padding: 10px;
-  box-shadow: 0px 0px 50px 3px rgb(127, 168, 255);
+  /* box-shadow: 0px 0px 50px 3px rgb(127, 168, 255); */
 }
-.about p {
-  padding: 10px 80px;
-}
-.about:hover {
-  background-color: rgba(80, 255, 197, 0.9);
-  transition: 0.3s;
-}
-.about a {
-  text-decoration: none;
-}
-
 .about div {
   padding: 1rem;
   display: flex;
@@ -106,4 +95,20 @@
   height: 270px;
   width: 360px;
   border-radius: 5px;
+}
+.about p {
+  display: inline-flex;
+  justify-content: center;
+  width: 350px;
+  padding: 0px 30px;
+  color: var(--text-colour-two);
+  margin-bottom: 50px;
+}
+.about h5 {
+  color: var(--text-colour-two);
+  width: fit-content;
+}
+
+.about a {
+  text-decoration: none;
 }
