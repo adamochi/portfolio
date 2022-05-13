@@ -11,6 +11,7 @@
 @import "CSS/some-content.css";
 @import "CSS/about.css";
 @import "CSS/myworks.css";
+@import "CSS/food.css";
 
 html {
   scroll-behavior: smooth;
