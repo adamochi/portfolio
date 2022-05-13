@@ -3,6 +3,9 @@
   font-size: 1rem;
   margin-top: 40px;
   color: rgb(245, 245, 245);
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+  animation-delay: 0.5s;
 }
 .works_boxes {
   opacity: 0;

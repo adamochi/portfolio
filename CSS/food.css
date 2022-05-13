@@ -1,4 +1,5 @@
 .food_header {
+  text-align: center;
   opacity: 0;
   animation: fadeIn 1s ease-out forwards;
   animation-delay: 0.5s;
@@ -6,6 +7,9 @@
   font-size: 1rem;
   margin-top: 40px;
   color: rgb(245, 245, 245);
+}
+.food_header h1 {
+  padding: 1px;
 }
 .food {
   opacity: 0;
@@ -42,7 +46,7 @@
   align-items: center;
   margin: 40px 10px 0px 10px;
   height: 300px;
-  width: 200px;
+  width: 400px;
 }
 .fbox h3 {
   transform: translateY(-20px);
