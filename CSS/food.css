@@ -22,9 +22,9 @@
   position: relatives;
   margin-bottom: 50px;
 }
-.food_boxes img {
-  position: absolute;
-  z-index: -1;
+.fbox img {
+  width: 100%;
+  height: 100%;
   border-radius: 5px;
 }
 .food a {

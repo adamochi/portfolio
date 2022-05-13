@@ -59,11 +59,6 @@
   text-decoration: none;
 }
 
-.about-test:hover {
-  transform: translateY(-3px);
-  transition: 0.1s;
-}
-
 #scroll {
   color: var(--main-text-colour);
   display: flex;
@@ -76,5 +71,5 @@
 }
 
 .works i {
-  transform: translateY(5px);
+  transform: translateY(0.5px);
 }
