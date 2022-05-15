@@ -23,11 +23,13 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-color: var(--dark-color);
   line-height: 1.05;
+  transition: 1s;
 }
 .light {
   background-color: rgb(255, 217, 223);
-  transition: background-color 1s;
+  transition: 1s;
   --main-text-colour: rgb(31, 135, 253);
   --text-colour-two: rgb(126, 126, 126);
   --purple-color: rgb(31, 135, 253);
+  --neon-icons: rgb(231, 157, 215);
 }

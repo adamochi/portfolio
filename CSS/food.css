@@ -6,7 +6,7 @@
   font-family: "Press Start 2P", cursive;
   font-size: 1rem;
   margin-top: 40px;
-  color: rgb(245, 245, 245);
+  color: var(--text-colour-two);
 }
 .food_header h1 {
   padding: 1px;
