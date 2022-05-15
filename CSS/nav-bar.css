@@ -73,3 +73,6 @@
 .works i {
   transform: translateY(0.5px);
 }
+.header__icons .fa-house {
+  transform: translateY(0.001px);
+}

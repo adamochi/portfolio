@@ -3,6 +3,7 @@ const lightClass = document.getElementById("body");
 
 function handleLightMode() {
   body.classList.toggle("light");
+  console.log("clicked");
 }
 
 lightModeBtn.addEventListener("click", handleLightMode);
