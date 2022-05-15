@@ -1,0 +1,45 @@
+/* @keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+} */
+
+#light-mode-button {
+  height: fit-content;
+  vertical-align: center;
+  margin-left: 4px;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  padding: 5px;
+  background: linear-gradient(
+    90deg,
+    rgb(36, 70, 145),
+    purple,
+    rgb(220, 253, 255)
+  );
+  background-size: 300%;
+  background-position: left;
+  transition: background-position 0.3s ease-in-out;
+  border-radius: 3px;
+  box-shadow: 0 0 3em rgba(255, 255, 255, 0.452);
+}
+#light-mode-button i {
+  margin-top: 3px;
+  width: 60px;
+  color: var(--text-colour-two);
+  transition: color 1.2s;
+}
+#light-mode-button:hover {
+  background-position: right;
+  color: black;
+}
+#light-mode-button i:hover {
+  color: black;
+}

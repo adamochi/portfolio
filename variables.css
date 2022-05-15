@@ -6,4 +6,10 @@
   --purple-color: rgba(98, 249, 214, 0.575);
   --dark-color: rgb(10, 25, 47);
   --dark-purple: rgba(165, 127, 255, 0.247);
+  --gradient: linear-gradient(
+    90deg,
+    rgb(10, 25, 47),
+    purple,
+    rgb(220, 253, 255)
+  );
 }
