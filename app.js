@@ -1,5 +1,10 @@
 const lightModeBtn = document.getElementById("light-mode-button");
 const lightClass = document.getElementById("body");
+const checkLocalStoage = localStorage.getItem("light");
+
+if (checkLocalStoage === "light") {
+  handleLightMode();
+}
 
 function handleLightMode() {
   body.classList.toggle("light");
@@ -7,36 +12,13 @@ function handleLightMode() {
 
 lightModeBtn.addEventListener("click", handleLightMode);
 
-
-// lightModeBtn.addEventListener("click", saveLightmode);
-
-/*
-const modeInStorage = localStorage.getItem("light");
-
-
-
-function enableLight() {
-  body.classList.remove("light");
-    localStorage.setItem("light", "hello");
-  }
-
-function disableLight() {
-  body.classList.add("light");
-  localStorage.removeItem("light", null);
-}
-if (modeInStorage !== null) {
-  enableLight();
-}
-function handleTheLightBtn(){
-  if (modeInStorage === null) {
-    enableLight();
-    console.log("enabled");
+function handleLightToggle() {
+  const savedMode = localStorage.getItem("light");
+  if (savedMode === null) {
+    localStorage.setItem("light", "light");
   } else {
-    disableLight();
-    console.log("disabled");
-
+    localStorage.removeItem("light", "light");
   }
 }
 
-lightModeBtn.addEventListener("click", handleTheLightBtn);
-*/
+lightModeBtn.addEventListener("click", handleLightToggle);
