@@ -7,9 +7,10 @@ function handleLightMode() {
 
 lightModeBtn.addEventListener("click", handleLightMode);
 
+
+// lightModeBtn.addEventListener("click", saveLightmode);
+
 /*
-const lightModeBtn = document.getElementById("light-mode-button");
-const lightClass = document.getElementById("body");
 const modeInStorage = localStorage.getItem("light");
 
 
