@@ -1,3 +1,7 @@
+
+
+
+
 const numberForm = document.querySelector("#numberGame");
 const numberRange = document.querySelector("#numberGame .range");
 const userGuess = document.querySelector("#numberGame .guess");
