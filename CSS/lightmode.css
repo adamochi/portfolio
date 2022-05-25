@@ -39,6 +39,8 @@
 #light-mode-button:hover {
   background-position: right;
   color: black;
+  transform: translateY(-3px) scale(110%);
+  transition: 0.3s;
 }
 #light-mode-button i:hover {
   color: black;

@@ -19,7 +19,7 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  position: relatives;
+  position: relative;
   margin-bottom: 50px;
 }
 .fbox img {
@@ -39,6 +39,7 @@
   height: 304px;
   width: 540px;
 }
+
 .fbox {
   position: relative;
   display: flex;

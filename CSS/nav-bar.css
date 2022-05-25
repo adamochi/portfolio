@@ -34,8 +34,20 @@
   padding-bottom: 3px;
   padding-top: 1px;
 }
+.margin_for_link span {
+  margin-right: 3px;
+}
 .margin_for_link {
+  position: relative;
   margin-right: 10px;
+  height: 20px;
+  display: inline-flex;
+  justify-content: center;
+}
+.margin_for_link:hover {
+  will-change: transform;
+  transform: translateY(-3px) scale(120%);
+  transition: 0.2s;
 }
 
 .header__resume:hover {
@@ -43,15 +55,13 @@
   transition: 0.2s;
 }
 
-.nav-bar span,
-.nav-bar i {
-  padding: 5px 1px;
+#nav-bar i {
   color: var(--main-text-colour);
   animation-duration: 10s;
-  transform: translateY(-3px);
   transition: 0.1s;
+  margin: 0px 2px;
 }
-.nav-bar span {
+#nav-bar span {
   color: var(--text-colour-two);
 }
 
@@ -69,10 +79,9 @@
   top: 110vh;
   right: 5vw;
 }
-
+.works {
+  margin-right: 3px;
+}
 .works i {
   transform: translateY(0.5px);
-}
-.header__icons .fa-house {
-  transform: translateY(0.001px);
 }
