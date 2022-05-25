@@ -1,19 +1,19 @@
-@import "CSS/reset.css";
+@import "css/reset.css";
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 @import "variables.css";
 /* components */
-@import "CSS/nav-bar.css";
-@import "CSS/scrollbar.css";
-@import "CSS/neon.css";
-@import "CSS/lightmode.css";
+@import "css/nav-bar.css";
+@import "css/scrollbar.css";
+@import "css/neon.css";
+@import "css/lightmode.css";
 
 /* screens */
-@import "CSS/home.css";
-@import "CSS/some-content.css";
-@import "CSS/about.css";
-@import "CSS/myworks.css";
-@import "CSS/food.css";
-@import "CSS/countdown.css";
+@import "css/home.css";
+@import "css/some-content.css";
+@import "css/about.css";
+@import "css/myworks.css";
+@import "css/food.css";
+@import "css/countdown.css";
 
 html {
   scroll-behavior: smooth;
