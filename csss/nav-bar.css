@@ -46,7 +46,7 @@
 }
 .margin_for_link:hover {
   will-change: transform;
-  transform: translateY(-3px) scale(120%);
+  transform: translateY(-3px) scale(110%);
   transition: 0.2s;
 }
 
