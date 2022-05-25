@@ -39,6 +39,20 @@
   height: 304px;
   width: 540px;
 }
+.fbox-34 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 10px 0px 10px;
+  height: 400px;
+  width: 300px;
+}
+.fbox-34 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
 
 .fbox {
   position: relative;
