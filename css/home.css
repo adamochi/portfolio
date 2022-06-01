@@ -102,7 +102,7 @@
   background-color: var(--dark-purple);
   border-radius: 20px 40px;
   padding: 1rem;
-  box-shadow: 0px 0px 15px 5px rgb(64, 145, 238);
+  box-shadow: 0px 0px 5px 1px rgb(95, 170, 255);
 }
 .home-header h1 {
   width: 320px;
